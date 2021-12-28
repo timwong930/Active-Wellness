@@ -6,7 +6,6 @@ body{
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   background-image: url(img/background.jpeg);
-  width: auto;
 }
 header{
   background-color: rgba(85,87,90,255);
@@ -26,60 +25,25 @@ header a{
   font-size: 3vw;
   padding-left: 3vw;
   padding-right: 3vw;
-  
 }
 header a:hover{
   color: #C3C2C4;
 }
-
-
 main{
   background-color: rgba(0, 0, 0, 0.750);
-  height: auto;
-  flex-wrap: wrap;
-  padding-bottom: 30px;
-  text-align: center;
-  color: white;
+  height: 1000px;
 }
-
-footer{
-  height: 100px;
-  background-color: rgba(255, 0, 0, 0.75);
-}
-
-/*Start of Home CSS*/
-.title{
- padding-top: 30px;
- 
- padding-left: 25%;
- padding-right: 25%;
- margin-top: 0px;
- text-transform: uppercase;
- font-size: 3rem;
-}
-
-.map, .groupex{
-  font-size: 2.5rem;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-/*End of Home CSS*/
-
-/*Start of Team CSS*/
 .bio{
   display: grid;
-  grid-auto-columns: 1fr;
-  /*
   grid-template-columns: auto auto auto;
   justify-content: space-evenly;
-  */
   font-size: 2rem;
   color: white;
   text-align: center;
 }
-.bio-name{
+.employee{
   margin-bottom: 5px;
+
 }
 .bio-title{
   margin-top: 0px;
@@ -89,5 +53,8 @@ footer{
   height: 300px;
   width: 300px;
 }
-/*End of Team CSS*/
 
+footer{
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.75);
+}

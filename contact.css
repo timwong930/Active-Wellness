@@ -1,0 +1,41 @@
+html{
+  font-size: 10px;
+
+}
+body{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-image: url(img/background.jpeg);
+}
+header{
+  background-color: rgba(85,87,90,255);
+  text-align: center;
+  height: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+header img{
+  float: left;
+  height: 100px;
+  margin-top: -50px;
+}
+header a{
+  text-decoration: none;
+  color: white;
+  font-size: 3vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header a:hover{
+  color: #C3C2C4;
+}
+main{
+  background-color: rgba(0, 0, 0, 0.750);
+  height: 1000px;
+}
+
+
+footer{
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.75);
+}
