@@ -1,0 +1,61 @@
+html{
+  font-size: 10px;
+
+}
+body{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-image: url(img/background.jpeg);
+}
+header{
+  background-color: red;
+  text-align: center;
+  height: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+header img{
+  float: left;
+  height: 100px;
+  margin-top: -50px;
+}
+header a{
+  text-decoration: none;
+  color: #C3C2C4;
+  font-size: 3rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header a:hover{
+  color: white;
+}
+
+
+main{
+  background-color: rgba(0, 0, 0, 0.750);
+  height: 100%;
+}
+.title{
+ padding-top: 30px;
+}
+.welcome{
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.located{
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+
+}
+.map{
+  text-align: center;
+}
+
+footer{
+  height: 100px;
+  background-color: darkgray;
+}
